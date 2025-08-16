@@ -95,7 +95,9 @@ coverage/
 .pnp.*
 
 # IDE and editor files
-.vscode/
+.vscode/settings.json.local
+.vscode/tasks.json.local
+.vscode/*.code-workspace
 .idea/
 *.swp
 *.swo
