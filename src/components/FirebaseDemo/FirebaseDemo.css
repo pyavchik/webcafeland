@@ -1,0 +1,110 @@
+.firebase-demo {
+  max-width: 600px;
+  margin: var(--spacing-2xl) auto;
+  padding: var(--spacing-xl);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-xl);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.firebase-demo h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: var(--spacing-xl);
+  font-size: var(--font-size-2xl);
+}
+
+.firebase-demo h3 {
+  color: white;
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.firebase-demo h4 {
+  color: white;
+  margin: var(--spacing-lg) 0 var(--spacing-md);
+}
+
+.message {
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-lg);
+  color: white;
+  text-align: center;
+  font-weight: var(--font-weight-medium);
+}
+
+.loading {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  padding: var(--spacing-lg);
+  font-style: italic;
+}
+
+.auth-section,
+.firestore-section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.user-info,
+.sign-in {
+  text-align: center;
+}
+
+.user-info p,
+.sign-in p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--spacing-lg);
+}
+
+.actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.posts {
+  margin-top: var(--spacing-lg);
+}
+
+.post {
+  background: rgba(255, 255, 255, 0.05);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-md);
+  border-left: 3px solid var(--color-primary);
+}
+
+.post h5 {
+  color: white;
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: var(--font-size-lg);
+}
+
+.post p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 var(--spacing-sm) 0;
+  line-height: var(--line-height-relaxed);
+}
+
+.post small {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 768px) {
+  .firebase-demo {
+    margin: var(--spacing-lg);
+    padding: var(--spacing-lg);
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}

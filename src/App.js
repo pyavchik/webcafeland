@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from './components';
+import { Button, FirebaseDemo } from './components';
 import useLocalStorage from './hooks/useLocalStorage';
 import { APP_NAME, STORAGE_KEYS } from './utils/constants';
 import './App.css';
@@ -74,6 +74,8 @@ function App() {
           </div>
         </div>
       </header>
+
+      <FirebaseDemo />
     </div>
   );
 }
