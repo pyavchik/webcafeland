@@ -13,6 +13,14 @@ export const STORAGE_KEYS = {
   SETTINGS: 'webCafeLand_settings',
 };
 
+// Firebase collections
+export const COLLECTIONS = {
+  USERS: 'users',
+  POSTS: 'posts',
+  COMMENTS: 'comments',
+  SETTINGS: 'settings',
+};
+
 // Theme constants
 export const THEMES = {
   LIGHT: 'light',
@@ -31,6 +39,6 @@ export const BREAKPOINTS = {
 // Common regex patterns
 export const REGEX_PATTERNS = {
   EMAIL: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-  PHONE: /^\+?[\d\s\-\(\)]{10,}$/,
+  PHONE: /^\+?[\d\s\-()]{10,}$/,
   URL: /^https?:\/\/.+/,
 };
