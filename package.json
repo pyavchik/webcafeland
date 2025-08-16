@@ -16,6 +16,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx --fix",
     "format": "prettier --write src/**/*.{js,jsx,css,md}",
+    "deploy": "npm run build && firebase deploy --only hosting",
+    "deploy:preview": "npm run build && firebase hosting:channel:deploy preview",
     "prepare": "husky"
   },
   "lint-staged": {

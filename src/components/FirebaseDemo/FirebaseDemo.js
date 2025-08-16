@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '../';
-import { useAuth } from '../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 import { signInWithGoogle, signOutUser } from '../../services/auth';
 import { addDocument, getDocuments } from '../../services/firestore';
 import { COLLECTIONS } from '../../utils/constants';
